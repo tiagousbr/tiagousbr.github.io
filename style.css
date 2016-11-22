@@ -30,7 +30,7 @@ html, body {
 }
 
 .jumbo {
-  background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
+  /*background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;*/
   background-size: cover;
   height: 1040px;
   border-top: 1px solid #333;
