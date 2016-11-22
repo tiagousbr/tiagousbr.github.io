@@ -4,7 +4,7 @@ html, body {
 }
 
 .container {
-  max-width: 1040px;
+  max-width: 940px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -30,9 +30,9 @@ html, body {
 }
 
 .jumbo {
-  /*background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;*/
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
   background-size: cover;
-  height: 1040px;
+  height: 800px;
   border-top: 1px solid #333;
 }
 
