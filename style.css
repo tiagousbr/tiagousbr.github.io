@@ -71,7 +71,7 @@ li {
 }
 
 .main-content1 {
-  width: 45%;
+  width: 48%;
   height: 300px;
   text-align: right;
   display: inline-block;
@@ -88,7 +88,7 @@ li {
 
 .main-content2 {
   box-sizing: border-box;
-  width: 45%;
+  width: 48%;
   height: 300px;
   margin: 0 auto;
   margin-left: 20px;
