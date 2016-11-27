@@ -1,139 +1,114 @@
 html, body {
-  margin: 0;
+  margin:0 auto;
   padding: 0;
   background-color: #FFF;
 }
 
-.nav {
-  padding: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  text-align: center;
-  text-transform: uppercase;
-  position: fixed;
+.head {
   width: 100%;
-  overflow-y: auto;
-  top: 0;
-  left: 0;
-  z-index: 10000;
+  text-align: center;
 }
 
-.ul {
-  padding: 0;
-}
-li {
-  display: inline;
-  font-family: Abel, sans-serif;
+.logo-area {
+  color: #000;
+  font-family: Raleway, sans-serif;
   font-weight: 600;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 14px;
+  padding: 20px 0px;
+  
 }
 
 #logo {
-  padding: 0 50px;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 600;
-  font-size: 32px;
-  color:#FCA311;
-}
-
-.main-box {
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 900px;
-  position: relative;
-  width: 100%;
-  top: -55px; 
-}
-
-.main-info {
-  box-sizing: border-box;
-  text-align: center;
-  position: relative;
-  margin: 0 auto;
-  top: 280px;
-  width: 70%;
+  width: 30px;
+  height: 20px;
 }
 
 h1 {
-  font-family: 'Amatic SC', cursive;
-  font-weight: 600;
-  font-size: 72px;
-  color:#FFF;
-  line-height:60px;
-  padding: 20px 10px;
-}
-
-h2 {
-  font-family: Raleway, sans-serif;
-  font-weight: 300;
-  font-size: 42px;
-  color: #000;  
+  display: inline;
 }
 
 h3 {
-  font-family: Abel, sans-serif;
+  color: #000;
+  font-family: Raleway, sans serif;
   font-weight: 600;
-  font-size: 24px;
-  color: #14213D;
-  text-align: center;
+  font-size: 18px;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 100%;
+  border-top: 1px solid #D6D2D2;
+}
+
+ul {
+  padding:0;
+}
+
+li {
+  display: inline;
+  padding: 10px 20px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
-h4 {
-  color: #FCA311;
-  font-family: Abel, sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  margin: 0px 0px 50px 0px;
+.main {
+  margin: 0 auto;
+  height: 1040px;
+  width: 100%;
+}
+.main-cover {
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main-content {
+  position: relative;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.main-content1 {
+  width: 45%;
+  height: 300px;
+  text-align: right;
+  display: inline-block;
+  margin-top: 100px;
+  overflow-y: auto;
+}
+
+#mainContent-image {
+  padding: 0;
+  width: 470px;
+  height: 290px;
+  
+}
+
+.main-content2 {
+  box-sizing: border-box;
+  width: 45%;
+  height: 300px;
+  margin: 0 auto;
+  margin-left: 20px;
+  text-align: left;
+  display: inline-block;
+  overflow-y: auto;
+}
+
+
+.breads {
+  padding:0px 10px 0px 10px;
+  margin: 10px 0px;
+  
 }
 
 p {
-  color: #333;
+  color: #000;
   font-family: Raleway, sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-}
-
-a {
-  text-decoration: none;
-}
-.btn-main {
-  font-family: 'Amatic SC', cursive;
-  font-size: 26px;
-  color: #FFF;
-  text-transformation: uppercase;
-  padding: 14px;
-  background-color: #14213D;
-  background-image: -webkit-linear-gradient(#FFD194,#BC1324);
-}
-
-.btn-buy {
-  color: #FFF;
-  font-family: 'Amatic SC', cursive;
-  font-size: 26px;
-  text-transform: uppercase;
-  background: #333;
-  padding: 14px;
-  background-image: -webkit-linear-gradient(#FFD194,#BC1324);
-}
-
-.products {
-  background: #EEEFF1;
-  box-sizing: border-box;
-  width: 90%;
-  margin: 20px auto;
-  padding:20px 0px;
-  text-align: center;
-}
-
-.product {
-  display: inline-block;
-  width: 45%;
-  padding: 0px 2% 80px 2%;
-  text-align: center;
-}
-
-img {
-  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  padding-right: 0;
+  max-width: 450px;
 }
