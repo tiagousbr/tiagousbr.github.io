@@ -40,7 +40,14 @@ h3 {
   color: #000;
   font-family: Raleway, sans serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 22px;
+}
+
+h4 {
+  color: #9E9999;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  padding: 0px;
 }
 
 .nav {
@@ -67,6 +74,7 @@ li {
   height: 840px;
   width: 100%;
 }
+
 .main-cover {
   background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;
   background-size: cover;
@@ -116,6 +124,8 @@ li {
 .top-news {
   background: #F2F0F0;
   margin: 0 auto;
+  position: relative;
+  top: 0;
   width: 100%;
   text-align: center;
   padding: 20px;
@@ -138,8 +148,80 @@ li {
   max-width: 450px;
 }
 
+.chefs {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.chef {
+  display: inline-block;
+  width: 20%;
+  margin: 20px 15px;
+  padding: 60px 5px;
+}
+
+.btn {
+  color: #FFF;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  background: #7A7878;
+  padding: 15px 25px;
+  border-radius: 100%;
+  text-decoration: none;
+  
+}
+
+.chef h3 {
+  padding: 30px 0px 0px 0px;
+}
+
+.chef p {
+  color: #9E9999;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+.recepies {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  height: 400px;
+  background: #615F5F;
+  text-align: center;
+}
+
+.recepie {
+  border: 1px solid #FFF;
+  margin: 20px;
+  display: inline-block;
+  width: 270px;
+  height: 350px; 
+  overflow: auto;
+  padding: 0;
+}
+
+.recepie img {
+  width: 100%;
+  heith: 60%;
+  margin: 0px 0px 10px 0px;
+}
+
+.recepie h3, h4 {
+  margin: 5px 0px 0px 0px;
+}
+
 p {
   color: #000;
-  font-family: Raleway, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 400;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #D6D2D2;
+  text-align: center;
+  padding: 60px 0px 0px 0px;
 }
