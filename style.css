@@ -79,6 +79,7 @@ li {
   background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;
   background-size: cover;
   height: 400px;
+  width: 100%;
 }
 
 .main-content {
