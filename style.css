@@ -77,7 +77,7 @@ li {
 
 .main-cover {
   /*background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;*/
-  background: url("css/bakery_cover.jpg");
+  background: url(css/bakery_Cover.jpg);
   background-size: cover;
   height: 400px;
   width: 100%;
