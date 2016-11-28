@@ -77,7 +77,7 @@ li {
 
 .main-cover {
   /*background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;*/
-  background: url(css/bakery_Cover.jpg);
+  background: url("css/bakery_Cover.jpg");
   background-size: cover;
   height: 400px;
   width: 100%;
@@ -205,7 +205,7 @@ li {
 
 .recepie img {
   width: 99%;
-  heith: 60%;
+  height: 60%;
   margin: 0px 0px 10px 0px;
   border: 2px ridge #F7F5F5;
 }
