@@ -192,19 +192,20 @@ li {
 }
 
 .recepie {
-  border: 1px solid #FFF;
   margin: 20px;
   display: inline-block;
   width: 270px;
   height: 350px; 
   overflow: auto;
   padding: 0;
+  background: #FFF;
 }
 
 .recepie img {
-  width: 100%;
+  width: 99%;
   heith: 60%;
   margin: 0px 0px 10px 0px;
+  border: 2px ridge #F7F5F5;
 }
 
 .recepie h3, h4 {
