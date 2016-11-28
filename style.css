@@ -100,8 +100,9 @@ li {
 
 #mainContent-image {
   padding: 0;
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
+  border: 3px solid red;
   
 }
 
