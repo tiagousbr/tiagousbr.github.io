@@ -132,7 +132,7 @@ li {
   background: #F2F0F0;
   background: cover;
   margin: 0 auto;
-  position: relative;
+  /*position: relative;*/
   top: 0;
   width: 100%;
   text-align: center;
